@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="resources/css/main.css" />
+<body>
+
+<!-- Content -->
+<nav class="w3-bar w3-blue">
+  <a href="homepage.html" class="w3-button w3-bar-item">EQUILYNK</a>
+  <a href="mentor.html" class="w3-button w3-bar-item">Find a Mentor</a>
+  <a href="mentee.html" class="w3-button w3-bar-item">Find a Mentee</a>
+  <a href="signup.html" class="w3-button w3-right w3-bar-item">SIGNUP</a>
+  <a href="loginpage.html" class="w3-button w3-right w3-bar-item">LOGIN</a>
+  <a href="aboutus.html" class="w3-button w3-bar-item">Meet Team EQUILYNK</a>
+</nav>
+
+  <!-- Slide Show -->
+<section>
+    <img class="mySlides" src="resources/home1.jpeg" style="width:50%" height="440">
+    <img class="mySlides" src="resources/home2.jpeg" style="width:40%" height="440">
+    <img class="mySlides" src="resources/home3.jpg" style="width:50%" height="440">
+</section>
+
+  <!-- Equilynk Description -->
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+  <h2 class="w3-wide">EQUILYNK</h2>
+  <p class="w3-opacity"><i>Meet. Build. Connect</i></p>
+  <p class="w3-justify w3-yellow">At equilynk, we aim to foster your workplace relationships by matching you with
+     someone who has the same tastes as you! 
+     Our algorithm will match you on the basis of non-traditional identity traits!
+     Be a mentor to someone or Become a mentee. Find a peer. Register to find out more</p>
+</section>
+
+
+  <script>
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000);
+    }
+    </script>
+
+    
+<!-- Footer -->
+<footer id="footer" class="w3-container  w3-center w3-black w3-xlarge">
+    <a href="https://www.facebook.com/equilynk/"><i class="fa fa-facebook-official"></i></a>
+    <a href="https://www.twitter.com/equilynk"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/equilynk/"><i class="fa fa-instagram"></i></a>
+      Powered by EQUILYNK: CORNELL TECH 2019 </a>
+    </p>
+  </footer>
+
+</body>
+</html>
