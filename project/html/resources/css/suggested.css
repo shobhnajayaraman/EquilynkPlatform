@@ -6,7 +6,7 @@
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     display: block;
     padding: 10px;
-    margin-bottom: 250px; /* SIMPLY SET THIS PROPERTY AS MUCH AS YOU WANT. This changes the space below box1 */
+    margin-bottom: 200px; /* SIMPLY SET THIS PROPERTY AS MUCH AS YOU WANT. This changes the space below box1 */
   }
   
   /* This container is needed to position the front and back side */
