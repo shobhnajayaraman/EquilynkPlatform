@@ -1,0 +1,25 @@
+.custom-checkbox input {
+  display: none;
+}
+
+.custom-checkbox span {
+  border: 2px solid #7e8a94;
+  /* float: right; - you don't need that. Use float: left; */
+  float: left;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-checkbox:hover span,
+.custom-checkbox input:checked+span {
+  border: 3px solid #43D8B0;
+}
+
+.custom-checkbox input:checked+span:before {
+  content: "✔";
+}
